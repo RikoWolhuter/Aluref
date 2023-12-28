@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Aluref_App"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".LadelFormActivity"
             android:exported="false" />
         <activity
